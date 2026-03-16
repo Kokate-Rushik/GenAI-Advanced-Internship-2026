@@ -123,6 +123,10 @@ def cart_checkout(customer_name: str, customer_address: str):
 # Question 5 part 3 - create GET /orders endpoint
 @app.get("/orders")
 def get_all_orders():
+    if not orders:
+        return{
+            "message": "No new orders added!"
+        }
     return {
         "orders": orders,
         "order_count": len(orders)
