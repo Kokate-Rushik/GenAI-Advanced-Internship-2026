@@ -102,6 +102,8 @@ def delete_from_cart(product_id: int):
 # Question 5 part 2 - create POST /cart/checkout endpoint
 @app.post("/cart/checkout")
 def cart_checkout(customer_name: str, customer_address: str):
+    if not cart:
+        raise HTTPException(status_code=400, detail="Cart is empty!")
     grand_total = sum([item["subtotal"] for item in cart])
     new_order = {
         "order_id": len(orders)+1,
