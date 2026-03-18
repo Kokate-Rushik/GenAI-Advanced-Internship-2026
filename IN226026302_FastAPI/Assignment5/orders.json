@@ -1,0 +1,98 @@
+[
+    {
+        "order_id": 1,
+        "customer_name": "rahul",
+        "customer_address": "MG Street, New City",
+        "order": [
+            {
+                "product_id": 2,
+                "product_name": "Notebook",
+                "quantity": 10,
+                "unit_price": 99,
+                "subtotal": 990
+            },
+            {
+                "product_id": 1,
+                "product_name": "Wireless Mouse",
+                "quantity": 1,
+                "unit_price": 499,
+                "subtotal": 499
+            }
+        ],
+        "total_price": 1489
+    },
+    {
+        "order_id": 2,
+        "customer_name": "rahul",
+        "customer_address": "MG Street, New City",
+        "order": [
+            {
+                "product_id": 4,
+                "product_name": "Pen Set",
+                "quantity": 15,
+                "unit_price": 49,
+                "subtotal": 735
+            },
+            {
+                "product_id": 2,
+                "product_name": "Notebook",
+                "quantity": 1,
+                "unit_price": 99,
+                "subtotal": 99
+            }
+        ],
+        "total_price": 834
+    },
+    {
+        "order_id": 3,
+        "customer_name": "rahul",
+        "customer_address": "MG Street, New City",
+        "order": [
+            {
+                "product_id": 1,
+                "product_name": "Wireless Mouse",
+                "quantity": 10,
+                "unit_price": 499,
+                "subtotal": 4990
+            }
+        ],
+        "total_price": 4990
+    },
+    {
+        "order_id": 4,
+        "customer_name": "Alok",
+        "customer_address": "Black Street, Old City",
+        "order": [
+            {
+                "product_id": 2,
+                "product_name": "Notebook",
+                "quantity": 10,
+                "unit_price": 99,
+                "subtotal": 990
+            },
+            {
+                "product_id": 1,
+                "product_name": "Wireless Mouse",
+                "quantity": 5,
+                "unit_price": 499,
+                "subtotal": 2495
+            }
+        ],
+        "total_price": 3485
+    },
+    {
+        "order_id": 5,
+        "customer_name": "Tanish",
+        "customer_address": "GT Road, Pune",
+        "order": [
+            {
+                "product_id": 4,
+                "product_name": "Pen Set",
+                "quantity": 25,
+                "unit_price": 49,
+                "subtotal": 1225
+            }
+        ],
+        "total_price": 1225
+    }
+]
