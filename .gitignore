@@ -1,2 +1,12 @@
 __pycache__/
 ecom-api/
+LEC_code/
+.vscode/
+fastapi-library-book-management/
+NLP/my_local_model/
+NLP/my_local_model
+NLP/result
+email-responder-langchain/
+.env
+**/.env
+resume-screening-ai/.env

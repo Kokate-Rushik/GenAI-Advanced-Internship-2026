@@ -1,5 +1,15 @@
 {
     "cSpell.words": [
-        "instock"
-    ]
+        "conll",
+        "figsize",
+        "IMDB",
+        "instock",
+        "lemmatization",
+        "Multinomial",
+        "overfitting",
+        "preds",
+        "stopwords",
+        "viridis"
+    ],
+    "markdown.validate.enabled": false
 }
